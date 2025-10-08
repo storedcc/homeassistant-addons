@@ -1,0 +1,5 @@
+---
+build_from:
+  aarch64: openspeedtest/latest:v2.0.6
+  amd64: openspeedtest/latest:v2.0.6
+  armv7: openspeedtest/latest:v2.0.6
