@@ -1,19 +1,11 @@
 ---
-name: openspeedtest
-version: latest
-slug: openspeedtest
-description: Openspeedtest addon for Homeassistant OS
+name: "openspeedtest"
+version: "2.0.6"
+slug: "openspeedtest"
+description: "Openspeedtest addon for Homeassistant OS"
 url: https://github.com/storedcc/homeassistant-addons/openspeedtest
 webui: https://[HOST]:[PORT:3000]
 image: openspeedtest/latest:v2.0.6
-startup: services
-arch:
-  - amd64
-  - armv7
-  - i386
-  - arm64
 init: false
 ports:
   3000/tcp: 3000
-ports_description:
-  3000/tcp: Used for speedtest web-ui
